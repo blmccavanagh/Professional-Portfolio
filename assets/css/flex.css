@@ -1,0 +1,22 @@
+.flex {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.item1 {
+    margin-left: 2rem;
+}
+
+.flex-item {
+    margin: 0.5rem;
+    border: double 4px rgb(161, 161, 161);
+}
+
+/* .item6 {
+    flex-basis: 100%;
+} */
