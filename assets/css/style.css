@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Raleway+Dots&display=swap');
+
 html {
     font-size: 100%;
     scroll-behavior: smooth;
@@ -6,8 +10,16 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     color: white;
-    background-image: url("../images/background-image-1.jpg");
+    background-image: url("../images/background-image-dark.jpg");
     box-sizing: border-box;
+}
+
+.light-bg {
+    background-image: url("../images/background-image-xlight.png");
+}
+
+.flicker {
+    animation: flicker 1.5s infinite alternate;
 }
 
 .position-rel{

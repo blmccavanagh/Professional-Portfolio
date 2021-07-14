@@ -1,0 +1,21 @@
+body {
+    font-weight: 500;
+}
+
+.name {
+    margin-left: -2rem;
+    font-size: 3rem;
+    font-weight: 200;
+    color: rgb(214, 0, 178);
+}
+
+.contact-photo {
+    margin-left: -1.5rem;
+}
+
+@media only screen and (max-width: 480px) {
+    
+    .name {
+        display: inline;
+    }
+}
