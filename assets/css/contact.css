@@ -13,6 +13,10 @@ body {
     margin-left: -1.5rem;
 }
 
+.profilepic {
+    background-image: url('../images/contact-profile-image.jpg');
+}
+
 @media only screen and (max-width: 480px) {
     
     .name {
